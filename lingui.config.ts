@@ -1,5 +1,5 @@
 /** @type {import('@lingui/conf').LinguiConfig} */
-module.exports = {
+const config = {
   locales: ['en', 'sr', 'es', 'pseudo'],
   pseudoLocale: 'pseudo',
   sourceLocale: 'en',
@@ -13,3 +13,5 @@ module.exports = {
     }
   ]
 }
+
+export default config
