@@ -24,7 +24,7 @@
   "devDependencies": {
     "@lingui/cli": "^5.9.2",
     "@lingui/loader": "^5.9.2",
-    "@lingui/swc-plugin": "^5.7.0",
+    "@lingui/swc-plugin": "5.7.0",
     "@types/negotiator": "^0.6.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
