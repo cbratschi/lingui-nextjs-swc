@@ -33,6 +33,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# typescript
+next-env.d.ts
+
 # lingui js
 /src/translations/**/*.js
 
