@@ -39,6 +39,7 @@ next-env.d.ts
 # lingui js
 /src/translations/**/*.js
 
+# yarn
 .pnp.*
 .yarn/*
 !.yarn/patches
