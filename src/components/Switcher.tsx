@@ -6,9 +6,10 @@ import { msg } from '@lingui/core/macro'
 import { useLingui } from '@lingui/react'
 import { usePathname, useRouter } from 'next/navigation'
 
-type LOCALES = 'en' | 'sr' | 'es' | 'pseudo'
+type LOCALES = 'de' | 'en' | 'sr' | 'es' | 'pseudo'
 
 const languages = {
+  de: msg`German`,
   en: msg`English`,
   sr: msg`Serbian`,
   es: msg`Spanish`

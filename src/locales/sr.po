@@ -17,9 +17,17 @@ msgstr ""
 msgid "{selected, plural, one {Developer} other {Developers}}"
 msgstr "{selected, plural, one {Програмер} other {Програмера}}"
 
-#: src/components/Switcher.tsx:12
+#: src/components/Switcher.tsx:13
 msgid "English"
 msgstr "Енглески"
+
+#: src/components/Switcher.tsx:12
+msgid "German"
+msgstr ""
+
+#: src/app/[lang]/issue1/_components/Issue1Page.tsx:22
+msgid "Issue 1"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/AboutText.tsx:6
@@ -30,16 +38,20 @@ msgstr "Некст.јс је отворени изворни Реацт-ов р�
 msgid "Plural Test: How many developers?"
 msgstr "Тест за Множину: Колико програмера?"
 
-#: src/components/Switcher.tsx:13
+#: src/components/Switcher.tsx:14
 msgid "Serbian"
 msgstr "Српски"
 
-#: src/components/Switcher.tsx:14
+#: src/components/Switcher.tsx:15
 msgid "Spanish"
 msgstr "Шпански"
 
-#: src/components/HomePage.tsx:22
+#: src/app/[lang]/issue1/_components/Issue1.tsx:12
+msgid "This site is protected by reCAPTCHA and the Google <0>Privacy Policy</0> and <1>Terms of Service</1> apply."
+msgstr ""
+
 #: src/app/[lang]/layout.tsx:16
+#: src/components/HomePage.tsx:22
 msgid "Translation Demo"
 msgstr "Демо Превод"
 

@@ -17,9 +17,17 @@ msgstr ""
 msgid "{selected, plural, one {Developer} other {Developers}}"
 msgstr "{selected, plural, one {Developer} other {Developers}}"
 
-#: src/components/Switcher.tsx:12
+#: src/components/Switcher.tsx:13
 msgid "English"
 msgstr "English"
+
+#: src/components/Switcher.tsx:12
+msgid "German"
+msgstr "German"
+
+#: src/app/[lang]/issue1/_components/Issue1Page.tsx:22
+msgid "Issue 1"
+msgstr "Issue 1"
 
 #. js-lingui-explicit-id
 #: src/components/AboutText.tsx:6
@@ -30,16 +38,20 @@ msgstr "Next.js is an open-source React front-end development web framework that
 msgid "Plural Test: How many developers?"
 msgstr "Plural Test: How many developers?"
 
-#: src/components/Switcher.tsx:13
+#: src/components/Switcher.tsx:14
 msgid "Serbian"
 msgstr "Serbian"
 
-#: src/components/Switcher.tsx:14
+#: src/components/Switcher.tsx:15
 msgid "Spanish"
 msgstr "Spanish"
 
-#: src/components/HomePage.tsx:22
+#: src/app/[lang]/issue1/_components/Issue1.tsx:12
+msgid "This site is protected by reCAPTCHA and the Google <0>Privacy Policy</0> and <1>Terms of Service</1> apply."
+msgstr "This site is protected by reCAPTCHA and the Google <0>Privacy Policy</0> and <1>Terms of Service</1> apply."
+
 #: src/app/[lang]/layout.tsx:16
+#: src/components/HomePage.tsx:22
 msgid "Translation Demo"
 msgstr "Translation Demo"
 

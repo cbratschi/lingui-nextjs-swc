@@ -2,7 +2,9 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   experimental: {
-    swcPlugins: [['@lingui/swc-plugin', {}]]
+    swcPlugins: [['@lingui/swc-plugin', {}]],
+    //cbxx FIXME breaks Issue1 test case
+    //reactCompiler: true
   },
 
   webpack: (config) => {

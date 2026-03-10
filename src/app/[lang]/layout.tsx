@@ -17,6 +17,8 @@ export async function generateMetadata(props: PageLangParam) {
   }
 }
 
+export const dynamicParams = true;
+
 export default async function RootLayout({ children, params }: PropsWithChildren<PageLangParam>) {
   const lang = (await params).lang
   initLingui(lang)
